@@ -10,6 +10,7 @@
 
 #import <UIKit/UIKit.h>
 #import <iosMath/MTMathList.h>
+#import <iosMath/MTMathUILabel.h>
 
 @class MTEditableMathLabel;
 @class MTMathListIndex;
@@ -67,6 +68,7 @@
 @property (nonatomic) MTMathList* mathList;
 @property (nonatomic) UIColor* highlightColor;
 
+@property (nonatomic) MTMathUILabel* label;
 @property (nonatomic) UIImageView* cancelImage;
 @property (nonatomic, weak) id<MTEditableMathLabelDelegate> delegate;
 @property (nonatomic, weak) UIView<MTMathKeyboard>* keyboard;
